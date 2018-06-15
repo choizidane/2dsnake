@@ -106,7 +106,7 @@ public class Gameplay extends JPanel implements KeyListener,ActionListener{
 		double time = (System.currentTimeMillis()-starttime);
 		g.setColor(Color.WHITE);
 		g.setFont(new Font("궁서체", Font.ITALIC, 14));
-		g.drawString("플레이시간:"+time/1000, 630, 30);
+		g.drawString("낭비한시간:"+time/1000, 630, 30);
 		
 		rightmouth = new ImageIcon("rightmouth.png");
 		rightmouth.paintIcon(this, g, snakexlength[0], snakeylength[0]);
